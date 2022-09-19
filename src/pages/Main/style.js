@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 background: linear-gradient(90deg, #cc00cc51, #3333cc);
 width: 100%;
-min-height: 78.9vh;
+min-height: 81.6vh;
 
 display: flex;
 align-items: center;

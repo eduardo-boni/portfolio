@@ -4,9 +4,7 @@ export const Container = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     width: 100%;
-    height: 80.2vh;
-
-    margin-top: -20px;
+    min-height: 81.6vh;
 
     background: linear-gradient(90deg, #3333cc, #cc00cc51);
 

@@ -4,7 +4,6 @@ export const Container = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     width: 100%;
-    min-height: 77.6vh;
     
     background:  #0d0d0d;
 

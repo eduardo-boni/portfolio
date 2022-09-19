@@ -4,6 +4,7 @@ import burguer from "../img/burguer.png";
 import formulario from "../img/formulario.png";
 import personagens from "../img/personagens.png";
 import nuKenzie from "../img/nuKenzie.png";
+import mundoInvertido from "../img/mundoInvertido.png"
 
 export const projects = [
     {
@@ -53,5 +54,13 @@ export const projects = [
         description: "É uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas.",
         tecnology: "Html, Css, JavaScript, React, Component, UseState",
         url: "https://react-entrega-s1-nu-kenzie-eduardo-boni.vercel.app/",
+    },
+    {
+        id: 7,
+        img: mundoInvertido,
+        title: "Mundo Invertido - Stranger Things",
+        description: "Essa é uma aplicação para aperfeiçoar abilidades de HTML, CSS e JavaScript como: estruturação de página, semântica, acessibilidade, posicionamento, manipulação do DOM. Apresentado e disponibilizado pela equipe DIO.",
+        tecnology: "Html, Css, JavaScript",
+        url: "https://mundo-invertido-psi.vercel.app/",
     },
 ]

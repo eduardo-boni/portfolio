@@ -59,7 +59,7 @@ export const projects = [
         id: 7,
         img: mundoInvertido,
         title: "Mundo Invertido - Stranger Things",
-        description: "Essa é uma aplicação para aperfeiçoar abilidades de HTML, CSS e JavaScript como: estruturação de página, semântica, acessibilidade, posicionamento, manipulação do DOM. Apresentado e disponibilizado pela equipe DIO.",
+        description: "Essa é uma aplicação para aperfeiçoar habilidades de HTML, CSS e JavaScript como: estruturação de página, semântica, acessibilidade, posicionamento, manipulação do DOM. Apresentado e disponibilizado pela equipe DIO.",
         tecnology: "Html, Css, JavaScript",
         url: "https://mundo-invertido-psi.vercel.app/",
     },

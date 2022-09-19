@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 background: linear-gradient(90deg, #cc00cc51, #3333cc);
 width: 100%;
-min-height: 79vh;
+min-height: 78.9vh;
 
 display: flex;
 align-items: center;
@@ -33,6 +33,25 @@ p {
 
 .stack {
     margin-left: 70px;
+}
+
+.anima {
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .7s, escrever normal 5s steps(55) both;
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }   
 }
 
 .profile img {

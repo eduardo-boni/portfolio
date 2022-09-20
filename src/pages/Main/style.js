@@ -95,6 +95,14 @@ p {
     }
 }
 
+@media screen and (max-width: 820px) {
+    min-height: 100vh;
+
+    .button {
+        bottom: 8%;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .profile img {
         animation: none;
@@ -108,11 +116,30 @@ p {
 
 @media screen and (max-width: 600px) {
     .profile img {
-        display: none;
+        width: 29%;
+        height: 27%;
+
+        position: absolute;
+        left: 36%;
+        top: 19%;
     }
     .button {
         position: absolute;
         left: 34%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .profile img {
+        width: 28%;
+        height: 24%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .profile img {
+        width: 28%;
+        height: 20%;
     }
 }
 `;

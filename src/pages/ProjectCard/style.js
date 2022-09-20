@@ -49,9 +49,15 @@ export const Container = styled.div`
         border-radius: 10px 10px 0 0;
     }
 
-    h3, p, span {
+    h3 {
+        color: #00d2df;
+        margin: 20px auto;
+    }
+
+    p, span {
         color: #fff;
         padding-left: 10px;
+        margin: 20px 5px;
     }
 
     p, span {

@@ -61,7 +61,7 @@ export const Header = styled.header`
         opacity: .5;
     }   
 
-    @media screen and (max-width: 690px) {
+    @media screen and (max-width: 820px) {
         h1 {
             display: none;
         }

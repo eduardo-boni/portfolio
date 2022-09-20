@@ -40,7 +40,7 @@ export const Container = styled.section`
     width: 40%;
     min-height: 400px;
 
-    margin: 2% 3%;
+    margin: 4% 3%;
 
     border: 2px solid  #6666ff;
     border-radius: 20px;

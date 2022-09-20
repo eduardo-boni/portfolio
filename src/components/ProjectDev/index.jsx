@@ -11,10 +11,10 @@ const ProjectDev = () => {
                 <p>Desenvolvido por Eduardo Motta Ishimura 2022.</p>
             </div>
             <div className="social-icon">
-                <a href="https://www.github.com/eduardo-boni" target="_blank">
+                <a href="https://www.github.com/eduardo-boni">
                     <GoMarkGithub/>
                 </a>
-                <a href="https://www.linkedin.com/in/eduardo-ishimura/" target="_blank">
+                <a href="https://www.linkedin.com/in/eduardo-ishimura/">
                     <BsLinkedin/>
                 </a>
             </div>

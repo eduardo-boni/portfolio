@@ -23,7 +23,7 @@ p {
     font-size: 2rem;
     color: #f1f1f1;
     margin-left: 40px;
-    margin-top: -5px;
+    margin-top: 20px;
 }
 
 .name {

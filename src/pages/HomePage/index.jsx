@@ -2,7 +2,7 @@ import { Container } from "./style";
 import img from "../../assets/img/img.jpg";
 import ProfileButton from "../../components/ProfileButton";
 
-const Main = () => {
+const HomePage = () => {
     
     return (
         <>
@@ -23,4 +23,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default HomePage;

@@ -11,22 +11,28 @@ export const Container = styled.main`
     h1 {
         text-align: center;
 
-        padding: 15px;
+        padding: 19px;
         color: #f1f1f1;
     }
 
     .main {
+        max-width: 90%;
+
         display: flex;
         justify-content: center;
         align-items: center;
+
         max-width: 1200px;
         height: auto;
+
+        margin-top: 15px;
     }
 
     .cv-profile {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         gap: 10px;
         margin-left: 5%;
     }
@@ -61,13 +67,15 @@ export const Container = styled.main`
     svg {
         width: 14%;
         height: auto;
+
         margin-right: 1.5rem;
         margin-top: 5px;
         margin-left: 10px;
+
         color: #ff0000;
     }
 
-    img {
+    .cv-profile img {
         position: relative;
 
         left: 10%;
@@ -86,8 +94,32 @@ export const Container = styled.main`
         color: #f1f1f1;
     }
 
-    p, span {
+    p {
+        color: #f1f1f1;
         font-family: 'Inter';
         font-size: 21px;
+    }
+
+     span {
+        font-family: 'Inter';
+        font-size: 21px;
+        color: #00bbc5;
+    }
+
+    section {
+        margin-top: 15px;
+    }
+
+    @media screen and (max-width: 950px) {
+
+        .main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+
+        .aside {
+            margin: 30px 20px;
+        }
     }
 `;

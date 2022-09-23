@@ -36,9 +36,9 @@ const AboutMe = () => {
                             </span>
                         </section>
                         <section>
-                            <p>
+                            <span>
                                 Estou estudando: TypeScript e VueJs.
-                            </p>
+                            </span>
                         </section>
                     </div>
             </div>

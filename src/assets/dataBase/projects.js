@@ -4,7 +4,8 @@ import burguer from "../img/burguer.png";
 import formulario from "../img/formulario.png";
 import personagens from "../img/personagens.png";
 import nuKenzie from "../img/nuKenzie.png";
-import mundoInvertido from "../img/mundoInvertido.png"
+import mundoInvertido from "../img/mundoInvertido.png";
+import miniPortfolio from "../img/miniPortfolio.png";
 
 export const projects = [
     {
@@ -63,4 +64,12 @@ export const projects = [
         tecnology: "Html, Css, JavaScript",
         url: "https://mundo-invertido-psi.vercel.app/",
     },
+    {
+        id: 8,
+        img: miniPortfolio,
+        title: "Mini-Portfólio",
+        description: "Essa é uma aplicação feita para uma rápida visualização às minhas redes sociais e aos meus contatos pessoais.",
+        tecnology: "Html, Css, JavaScript",
+        url: "https://portfolio-liard-seven-47.vercel.app",
+    }
 ]

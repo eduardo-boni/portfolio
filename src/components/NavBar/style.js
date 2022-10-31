@@ -28,7 +28,7 @@ export const Header = styled.header`
         margin-left: 3rem;
         color: #f1f1f1;
         font-family: 'Chivo', sans-serif;
-        font-size: 22px;
+        font-size: 1.4rem;
         text-decoration: none;
         cursor: pointer;
     }
@@ -38,12 +38,13 @@ export const Header = styled.header`
     }
 
     button {
-        width: 190px;
+        position: relative;
+        width: 15%;
         height: 45px;
 
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.2rem;
         
         margin: 0 20px;
 
@@ -65,30 +66,32 @@ export const Header = styled.header`
         h1 {
             display: none;
         }
-
-        .navigation {
-            width: 100%;
-        }
     }
 
-    h1, button {
     @media screen and (max-width: 500px) {
+           
+        button {
             display: none;
         }
 
-        .navigation {
-            width: 100%;
-            text-align: center;
+        .navigation a{
+            
+            font-size: 1.4rem;
+            margin: 1.2rem;
         }
     }
 
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 440px) {
         h1, button {
             display: none;
         }
+    }
 
-        .navigation {
-            width: 100%;
+    @media screen and(max-width:360px) {
+
+        .navigation a{
+            font-size: 1rem;
+            color: red;
         }
     }
 `;

@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-    width: 100%;
-    min-height: 81.6vh;
+    min-height: 80vh;
 
     background: linear-gradient(90deg, #3333cc, #cc00cc51);
 
@@ -16,25 +15,25 @@ export const Container = styled.main`
     }
 
     .main {
-        max-width: 90%;
-
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-
-        max-width: 1200px;
-        height: auto;
-
-        margin-top: 15px;
+        gap: 10px;
     }
 
-    .cv-profile {
+    .main .cv-profile {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+    }
 
-        gap: 10px;
-        margin-left: 5%;
+    .cv-profile img {
+        width: 16rem;
+        
+        border: 2px solid #6666ff;
+        border-radius: 10px;
+        background: transparent;
     }
 
     .cv-profile a {
@@ -44,14 +43,13 @@ export const Container = styled.main`
         border-radius: 8px;
         border: 2px solid #00d2df;
 
-        margin-top: 15%;
-        margin-left: 20%;
+        margin: 2rem;
+        margin-left: 15%;
         
         background: #262626;
-
         text-decoration: none;
 
-        font-size: 20px;
+        font-size: 1.2rem;
         color: #f1f1f1;
         letter-spacing: 1.5px;
 
@@ -61,65 +59,46 @@ export const Container = styled.main`
             opacity: .5;
             text-shadow: 1px 1px 3px #00bbc5;
         }
-    }
-    
 
-    svg {
-        width: 14%;
-        height: auto;
+        svg {
+            
+        width: 1.4rem;
 
-        margin-right: 1.5rem;
-        margin-top: 5px;
-        margin-left: 10px;
+        margin-right: 1.4rem;
+        margin-top: 0.7rem;
+        margin-left: 0.9rem;
 
         color: #ff0000;
-    }
-
-    .cv-profile img {
-        position: relative;
-
-        left: 10%;
-        
-        border: 2px solid #6666ff;
-        border-radius: 10px;
-        background: transparent;
+        }
     }
 
     .aside {
-        display: flex;
-        flex-direction: column;
-        
-        margin-left: 20%;
+        max-width: 44rem;
+    }
 
+    .aside section p {
         color: #f1f1f1;
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 15px;
     }
 
-    p {
-        color: #f1f1f1;
-        font-family: 'Inter';
-        font-size: 21px;
+    .skills span {
+        color: #00d2df;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
     }
 
-     span {
-        font-family: 'Inter';
-        font-size: 21px;
-        color: #00bbc5;
-    }
-
-    section {
-        margin-top: 15px;
-    }
-
-    @media screen and (max-width: 950px) {
-
+    @media screen and (max-width: 1000px) {
         .main {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
         }
 
-        .aside {
-            margin: 30px 20px;
+        @media screen and (max-width: 760px) {
+            .aside {
+                margin: 1.5rem;
+            }
         }
     }
 `;

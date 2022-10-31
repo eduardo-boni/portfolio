@@ -29,15 +29,15 @@ const AboutMe = () => {
                                 Também gosto de brincar com design no figma, criando interfaces para projetos pessoais.
                             </p>
                         </section>
-                        <section>
+                        <section className="skills">
                             <span>
                                 Hoje tenho conhecimentos em :
-                                HTML5, CSS3, JavaScript, ReactJS, Redux, ContextAPI, GIT, Metodologia Ágil(SCRUM).
+                                HTML5, CSS3, JavaScript, ReactJS, Redux, ContextAPI, GIT, Figma, Metodologia Ágil(SCRUM).
                             </span>
                         </section>
-                        <section>
+                        <section className="skills">
                             <span>
-                                Estou estudando: TypeScript e VueJs.
+                                Estou estudando: TypeScript e Less.
                             </span>
                         </section>
                     </div>

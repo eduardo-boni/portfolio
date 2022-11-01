@@ -70,6 +70,6 @@ export const projects = [
         title: "Mini-Portfólio",
         description: "Essa é uma aplicação feita para uma rápida visualização às minhas redes sociais e aos meus contatos pessoais.",
         tecnology: "Html, Css, JavaScript",
-        url: "https://portfolio-liard-seven-47.vercel.app",
+        url: "https://src-eduardo-boni.vercel.app/",
     }
 ]

@@ -3,34 +3,37 @@ import styled from "styled-components";
 export const Container = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-    width: 100%;
-    height: 80.2vh;
-
-    margin-top: -20px;
+    min-height: 80vh;
 
     background: linear-gradient(90deg, #3333cc, #cc00cc51);
 
     h1 {
         text-align: center;
 
-        padding: 15px;
+        padding: 19px;
         color: #f1f1f1;
     }
 
     .main {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        height: auto;
-    }
-
-    .cv-profile {
-        display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
         gap: 10px;
-        margin-left: 5%;
+    }
+
+    .main .cv-profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cv-profile img {
+        width: 16rem;
+        
+        border: 2px solid #6666ff;
+        border-radius: 10px;
+        background: transparent;
     }
 
     .cv-profile a {
@@ -40,14 +43,13 @@ export const Container = styled.main`
         border-radius: 8px;
         border: 2px solid #00d2df;
 
-        margin-top: 15%;
-        margin-left: 20%;
+        margin: 2rem;
+        margin-left: 15%;
         
         background: #262626;
-
         text-decoration: none;
 
-        font-size: 20px;
+        font-size: 1.2rem;
         color: #f1f1f1;
         letter-spacing: 1.5px;
 
@@ -57,39 +59,46 @@ export const Container = styled.main`
             opacity: .5;
             text-shadow: 1px 1px 3px #00bbc5;
         }
-    }
-    
 
-    svg {
-        width: 14%;
-        height: auto;
-        margin-right: 1.5rem;
-        margin-top: 5px;
-        margin-left: 10px;
+        svg {
+            
+        width: 1.4rem;
+
+        margin-right: 1.4rem;
+        margin-top: 0.7rem;
+        margin-left: 0.9rem;
+
         color: #ff0000;
-    }
-
-    img {
-        position: relative;
-
-        left: 10%;
-        
-        border: 2px solid #6666ff;
-        border-radius: 10px;
-        background: transparent;
+        }
     }
 
     .aside {
-        display: flex;
-        flex-direction: column;
-        
-        margin-left: 20%;
-
-        color: #f1f1f1;
+        max-width: 44rem;
     }
 
-    p, span {
-        font-family: 'Inter';
-        font-size: 21px;
+    .aside section p {
+        color: #f1f1f1;
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .skills span {
+        color: #00d2df;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width: 760px) {
+            .aside {
+                margin: 1.5rem;
+            }
+        }
     }
 `;

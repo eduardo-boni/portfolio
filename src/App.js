@@ -1,15 +1,15 @@
 import './App.css';
-import PagesRoutes from './Routes';
 import NavBar from './components/NavBar';
-import Footer from './components/ProjectDev';
+import ProjectFooter from './components/ProjectFooter';
+import PagesRoutes from './Routes';
 
 function App() {
 
   return (
-      <div className="App">
+      <div className="App">  
         <NavBar />
         <PagesRoutes />
-        <Footer/>
+        <ProjectFooter />
       </div>
   )
 }

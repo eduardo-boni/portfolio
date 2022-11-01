@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 background: linear-gradient(90deg, #cc00cc51, #3333cc);
 width: 100%;
-min-height: 78.9vh;
+min-height: 81.6vh;
 
 display: flex;
 align-items: center;
@@ -23,23 +23,24 @@ p {
     font-size: 2rem;
     color: #f1f1f1;
     margin-left: 40px;
-    margin-top: -5px;
+    margin-top: 20px;
 }
 
-.name {
-    margin-left: 50px;
-    font-size: 50px;
-}
-
-.stack {
-    margin-left: 70px;
-}
-
-.anima {
-    max-width: 0;
+.animation {
+    margin-left: 3.5rem;
     white-space: nowrap;
     overflow: hidden;
     animation: pisca normal infinite .7s, escrever normal 5s steps(55) both;
+}
+
+.stack {
+    margin-left: 4.3rem;
+}
+
+.button {
+    position: absolute;
+    top: 76%;
+
 }
 
 @keyframes pisca {
@@ -90,9 +91,16 @@ p {
 @media screen and (max-width: 870px) {
    
     .profile img {
-        width: 22%;
-        height: 25%;
+        width: 20%;
+        height: 27%;
     }
+}
+
+@media screen and (max-width: 820px) {
+    
+    .button {
+        top: 75%;
+        margin: 0;
 }
 
 @media screen and (max-width: 780px) {
@@ -102,17 +110,54 @@ p {
     .button {
         position: absolute;
         left: 37.5%;
-        
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
     .profile img {
-        display: none;
-    }
-    .button {
         position: absolute;
-        left: 34%;
+        top: 16%;
+        left: 39%;
+
+        width: 21%;
+        height: 21%;
     }
 }
-`;
+
+@media screen and (max-width: 490px) {
+    .profile img {
+        width: 25%;
+        height: 21%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .description p{
+        margin-left: 2rem;
+    }
+
+    .button {
+        position: absolute;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .profile img {
+        width: 28%;
+        height: 20%;
+        }
+    }
+
+@media screen and (max-width: 360px) {
+        .button {
+            position: absolute;
+            left: 30%;
+        }
+    }
+}
+`

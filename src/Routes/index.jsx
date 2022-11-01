@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Main from "../pages/Main";
+import HomePage from "../pages/HomePage";
 import  Skills  from "../pages/Skills/index";
 import ProjectCard from "../pages/ProjectCard";
 import AboutMe from "../pages/AboutMe";
@@ -8,7 +8,7 @@ import AboutMe from "../pages/AboutMe";
 const PagesRoutes = () => {
     return (
         <Routes>
-            <Route exact path="/" element={<Main />}/>
+            <Route exact path="/" element={<HomePage />}/>
            
             <Route exact path="/skills" element={<Skills />}/>
              

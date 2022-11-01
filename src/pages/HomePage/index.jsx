@@ -2,14 +2,14 @@ import { Container } from "./style";
 import img from "../../assets/img/img.jpg";
 import ProfileButton from "../../components/ProfileButton";
 
-const Main = () => {
+const HomePage = () => {
     
     return (
         <>
         <Container>
             <section className="description">
                 <p>Oi, eu sou</p> 
-                <p className="anima">Eduardo Motta Ishimura !</p>
+                <p className="animation">Eduardo Motta Ishimura !</p>
                 <p className="stack">" Desenvolvedor Front-end Jr."</p>
             </section>
             <section className="profile">
@@ -23,4 +23,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default HomePage;

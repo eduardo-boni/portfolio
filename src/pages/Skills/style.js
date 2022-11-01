@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     width: 100%;
-    min-height: 78.9vh;
+    min-height: 81.6vh;
     
     background: linear-gradient(90deg, #3333cc, #cc00cc51);
 
@@ -40,7 +40,7 @@ export const Container = styled.section`
     width: 40%;
     min-height: 400px;
 
-    margin: 2% 3%;
+    margin: 4% 3%;
 
     border: 2px solid  #6666ff;
     border-radius: 20px;

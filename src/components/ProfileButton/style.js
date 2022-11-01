@@ -1,13 +1,18 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-    width: 200px;
+    width: 12.5rem;
     height: 45px;
 
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -25px;
+
+    
     background: transparent;
 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.2rem;
     
     animation: pulsate 1.5s infinite alternate;  
     

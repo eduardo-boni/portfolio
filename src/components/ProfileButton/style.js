@@ -5,14 +5,14 @@ export const Button = styled.button`
     height: 45px;
 
     position: absolute;
-    margin-top: 20px;
+    margin-top: 6rem;
     margin-left: -25px;
 
     
     background: transparent;
 
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     
     animation: pulsate 1.5s infinite alternate;  
     

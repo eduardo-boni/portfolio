@@ -114,8 +114,11 @@ span {
     color: #0066ff;
 }
 
-.vue-skill:hover {
-    color: #00994d;
+.java-skill:hover {
+    color: #e68a00;
+}
+.compass-skill:hover {
+    color: #ff1a1a;
 }
 
 @media screen and (max-width: 780px) {

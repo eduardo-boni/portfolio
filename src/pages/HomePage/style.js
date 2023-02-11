@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 background: linear-gradient(90deg, #cc00cc51, #3333cc);
 width: 100%;
-min-height: 81.6vh;
+min-height: 100vh;
 
 display: flex;
 align-items: center;
@@ -20,7 +20,7 @@ align-items: center;
 p {
     font-family: 'Chivo';
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #f1f1f1;
     margin-left: 40px;
     margin-top: 20px;

@@ -1,7 +1,7 @@
 import { Container } from "./style";
-import { FaHtml5, FaReact, FaGitAlt, FaVuejs  } from "react-icons/fa";
+import { FaHtml5, FaReact, FaGitAlt, FaJava  } from "react-icons/fa";
 import { SiCss3, SiJavascript, SiTypescript } from "react-icons/si";
-import { DiScrum } from "react-icons/di";
+import { DiScrum, DiCompass } from "react-icons/di";
 import { useState } from "react";
 
 const Skills = () => {
@@ -49,11 +49,14 @@ const Skills = () => {
               {show? <span>TypeScript</span> : null}
               <SiTypescript onClick={() => show ? setShow(false) : setShow(true)}/>
               </div>
-              <div className="skill-box vue-skill">
-              {show? <span>VueJs</span> : null}
-                <FaVuejs onClick={() => show ? setShow(false) : setShow(true)}/>
+              <div className="skill-box java-skill">
+              {show? <span>Java</span> : null}
+                <FaJava onClick={() => show ? setShow(false) : setShow(true)}/>
               </div>
-              
+              <div className="skill-box compass-skill">
+              {show? <span>Compass</span> : null}
+                <DiCompass onClick={() => show ? setShow(false) : setShow(true)}/>
+              </div>
             </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ export const Header = styled.header`
     justify-content: space-evenly;
     align-items: center;
 
-    background: linear-gradient(270deg, #000, #4d0066);
+    background: linear-gradient( #008080, #003333);
 
     h1 {
         margin-left: -2rem;
@@ -34,7 +34,10 @@ export const Header = styled.header`
     }
 
     .navigation a:hover {
-        border-bottom: 3px solid #8000ff; 
+        background:  #004d4d;
+        border: 2px solid #009999; 
+        border-radius: 10px;
+        padding: 5px;
     }
 
     button {
@@ -58,7 +61,7 @@ export const Header = styled.header`
     button:hover {
         background: #f1f1f1;
         color: #000;
-        border: 2px solid #8000ff;
+        border: 2px solid #009999;
         opacity: .5;
     }   
 
@@ -75,7 +78,6 @@ export const Header = styled.header`
         }
 
         .navigation a{
-            
             font-size: 1.4rem;
             margin: 1.2rem;
         }

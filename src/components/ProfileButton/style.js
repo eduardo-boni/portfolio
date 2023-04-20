@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Button = styled.button`
     width: 12.5rem;
-    height: 45px;
+    height: 3rem;
 
-    position: absolute;
-    margin-top: 6rem;
-    margin-left: -25px;
+    margin: 50% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
     background: transparent;
@@ -16,15 +17,15 @@ export const Button = styled.button`
     
     animation: pulsate 1.5s infinite alternate;  
     
-    border: 2px solid #8000ff;
+    border: 2px solid #009999;
     border-radius: 5px;
 
     box-shadow: 0 0 .2rem #f1f1f1,
                 0 0 .2rem #f1f1f1,
-                0 0 2rem #bc13fe,
-                0 0 0.8rem #bc13fe,
-                0 0 2.8rem #bc13fe,
-                inset 0 0 1.3rem #bc13fe; 
+                0 0 2rem #00e6e6,
+                0 0 0.8rem #00e6e6,
+                0 0 2.8rem #00e6e6,
+                inset 0 0 1.3rem #00e6e6; 
     cursor: pointer;
 
 @keyframes pulsate {
@@ -35,11 +36,11 @@ export const Button = styled.button`
       0 0 5px #fff,
       0 0 10px #fff,
       0 0 20px #fff,
-      0 0 40px #bc13fe,
-      0 0 80px #bc13fe,
-      0 0 90px #bc13fe,
-      0 0 100px #bc13fe,
-      0 0 150px #bc13fe;
+      0 0 40px #00e6e6,
+      0 0 80px #00e6e6,
+      0 0 90px #00e6e6,
+      0 0 100px #00e6e6,
+      0 0 150px #00e6e6;
   
   }
   
@@ -49,16 +50,16 @@ export const Button = styled.button`
     0 0 2px #fff,
     0 0 4px #fff,
     0 0 6px #fff,
-    0 0 10px #bc13fe,
-    0 0 45px #bc13fe,
-    0 0 55px #bc13fe,
-    0 0 70px #bc13fe,
-    0 0 80px #bc13fe;
+    0 0 10px #00e6e6,
+    0 0 45px #00e6e6,
+    0 0 55px #00e6e6,
+    0 0 70px #00e6e6,
+    0 0 80px #00e6e6;
 
     }
 }
 
 &:hover {
-    background: #ccccb3;
+    background: #009999;
 }
 `;

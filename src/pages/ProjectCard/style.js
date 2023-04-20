@@ -30,10 +30,10 @@ export const Container = styled.div`
 
         margin: 10px;
 
-        border: 2px solid #8000ff;
+        border: 2px solid #009999;
         border-radius: 10px;
 
-        box-shadow: 0 0 15px #8000ff;
+        box-shadow: 0 0 15px #009999;
     }
 
     .itens {
@@ -78,7 +78,7 @@ export const Container = styled.div`
         height: 42px;
 
         font-family: 'Inter', sans-serif;
-        font-size: 19px;
+        font-size: 1.2rem;
         font-weight: 500;
 
         text-decoration: none;
@@ -88,15 +88,14 @@ export const Container = styled.div`
         
 
         border: none;
-        border: 2px solid #8000ff;
+        border: 2px solid #009999;
         border-radius: 5px;
 
-        background: #000;
+        background: #004d4d;
         cursor: pointer;
         
         &:hover {
-            background: linear-gradient(90deg, #8000ff, #d1d1d1);
-            color: #000;
+            opacity: .7;
         }
     }
 

@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Roboto&display=swap');
 
-background: linear-gradient(90deg, #cc00cc51, #3333cc);
-width: 100%;
+background: #001a1a;
+width: 100%;                  
 min-height: 100vh;
 
 display: flex;
@@ -64,8 +64,8 @@ p {
     left: 65%;
 
     border-radius: 50%;
-    border: 1px solid #cc00cc;
-    box-shadow: 0 0 30px #000;
+    border: 1px solid #009999;
+    box-shadow: 0 0 40px #00b3b3;
 
     animation: updown 3s linear infinite;
 }

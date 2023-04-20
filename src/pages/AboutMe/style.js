@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-    min-height: 80vh;
+    min-height: 100vh;
 
-    background: linear-gradient(90deg, #3333cc, #cc00cc51);
+    background: #001a1a;
 
     h1 {
         text-align: center;

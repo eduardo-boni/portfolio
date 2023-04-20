@@ -37,7 +37,7 @@ const AboutMe = () => {
                         </section>
                         <section className="skills">
                             <span>
-                                Estou estudando: TypeScript e Less.
+                                Estou estudando: TypeScript, AngularJs e Java.
                             </span>
                         </section>
                     </div>

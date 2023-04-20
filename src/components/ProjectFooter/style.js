@@ -9,7 +9,7 @@ export const Footer = styled.div`
     height: 70px;
     padding: 0 1rem;
     
-    background: linear-gradient(270deg, #4d0066, #000);
+    background: linear-gradient( #003333, #008080);
 
 .social-icon {
         display: flex;
@@ -25,7 +25,7 @@ export const Footer = styled.div`
 
     .contact p {
         font-size: 0.9rem;
-        color: #33cccc;
+        color: #f1f1f1;
     }
 
     svg {

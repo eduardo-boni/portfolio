@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     width: 100%;
-    min-height: 81.6vh;
+    min-height: 100vh;
     
-    background: linear-gradient(90deg, #3333cc, #cc00cc51);
+    background: #001a1a;
 
     h1 {
         text-align: center;
@@ -42,7 +42,7 @@ export const Container = styled.section`
 
     margin: 4% 3%;
 
-    border: 2px solid  #6666ff;
+    border: 2px solid  #009999;
     border-radius: 20px;
 
     gap: 20px;
@@ -60,8 +60,8 @@ export const Container = styled.section`
 }
 
 .skill-box {
-    height: 100px;
-    width: 100px;
+    height: 6rem;
+    width: 6.3rem;
 
     background-color: #C4C4C4;
     border-radius: 20px;
@@ -117,7 +117,7 @@ span {
 .java-skill:hover {
     color: #e68a00;
 }
-.compass-skill:hover {
+.angular-skill:hover {
     color: #ff1a1a;
 }
 

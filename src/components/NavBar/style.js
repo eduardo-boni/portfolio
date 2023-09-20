@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   @import url("https://fonts.googleapis.com/css2?family=Chivo&family=Inter&display=swap");
-  height: 70px;
+  height: 4.37rem;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 
   background: linear-gradient(#008080, #003333);
@@ -40,31 +40,6 @@ export const Header = styled.header`
     padding: 5px;
   }
 
-  button {
-    position: relative;
-    width: 15%;
-    height: 45px;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-
-    margin: 0 20px;
-
-    color: #f1f1f1;
-    border: 2px solid;
-    background: transparent;
-
-    cursor: pointer;
-  }
-
-  button:hover {
-    background: #f1f1f1;
-    color: #000;
-    border: 2px solid #009999;
-    opacity: 0.5;
-  }
-
   @media screen and (max-width: 820px) {
     h1 {
       display: none;
@@ -83,8 +58,7 @@ export const Header = styled.header`
   }
 
   @media screen and (max-width: 440px) {
-    h1,
-    button {
+    h1 {
       display: none;
     }
   }

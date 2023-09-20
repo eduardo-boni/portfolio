@@ -22,15 +22,15 @@ const AboutMe = () => {
                 Olá, me chamo Eduardo! <br />
                 Sou formado em desenvolvimento Front End com React pela Kenzie
                 Academy Brasil em Julho de 2022 e, atualmente cursando
-                Tecnologia em Sistemas de Computação pela UFF (início em Janeiro
-                de 2023). Minha relação com a tecnologia começou em 2016 com a
-                conclusão do curso Técnico em Informática, no qual, tive uma
-                introdução em lógica e linguagem de programação. Foi quando me
-                apaixonei por tecnologia e decidi trilhar o caminho da
-                programação. Atualmente estou focando nas tecnologias voltadas
-                ao Front End, porém, aberto a novas oportunidades e estou
-                buscando aprender outras tecnologias a fim de me tornar
-                Fullstack.
+                Tecnologia em Sistemas de Computação pela UFF (iniciado em
+                Fevereiro de 2023). Minha relação com a tecnologia começou em
+                2016 com a conclusão do curso Técnico em Informática, no qual,
+                tive uma introdução em lógica e linguagem de programação. Foi
+                quando me apaixonei por tecnologia e decidi trilhar o caminho da
+                programação. Atualmente, continuo aperfeiçoando meus
+                conhecimentos no Front End e, buscando aprender novas
+                tecnologias a fim de me tornar um Desenvolvedor Fullstack. Com
+                tudo, estou aberto a novas oportunidades.
               </p>
               <p>
                 Também gosto de brincar com design no figma, criando interfaces

@@ -11,7 +11,6 @@ const NavBar = () => {
           <Link to="/skills">Habilidades</Link>
           <Link to="/project">Projetos</Link>
         </nav>
-        <button>Let's Connect</button>
       </Header>
     </>
   );

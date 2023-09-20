@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
       <Container>
         <section className="description">
-          <p>Oi, eu sou</p>
+          <p>Olá, eu sou</p>
           <p className="animation">Eduardo Motta Ishimura !</p>
           <p className="stack">" Desenvolvedor Front-end Jr."</p>
         </section>

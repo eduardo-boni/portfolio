@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   p {
@@ -22,8 +22,8 @@ export const Container = styled.div`
     font-weight: 700;
     font-size: 2.5rem;
     color: #f1f1f1;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 2.5rem;
+    margin-top: 1.25rem;
   }
 
   .animation {
@@ -54,10 +54,10 @@ export const Container = styled.div`
     }
   }
 
-  .profile img {
+  .profile > img {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
 
     top: 30%;
     left: 65%;
@@ -89,17 +89,18 @@ export const Container = styled.div`
 
   @media screen and (max-width: 1024px) {
     .profile img {
-      width: 23%;
+      /*  width: 23%;
       height: 35%;
-      top: 23%;
+      top: 23%; */
     }
   }
 
   @media screen and (max-width: 870px) {
     .profile img {
-      width: 23%;
+      width: 30%;
       height: 30%;
-      top: 23%;
+      top: 13%;
+      left: 37%;
     }
 
     @keyframes updown {
@@ -138,8 +139,7 @@ export const Container = styled.div`
         animation: none;
 
         position: absolute;
-        margin-top: -40px;
-        margin-left: -25%;
+        margin-top: 0.5rem;
       }
       .button {
         position: absolute;
@@ -150,11 +150,8 @@ export const Container = styled.div`
     @media screen and (max-width: 680px) {
       .profile img {
         position: absolute;
-        top: 27%;
-        left: 65%;
-
-        width: 25%;
-        height: 25%;
+        top: 13%;
+        left: 35%;
       }
 
       p {
@@ -169,10 +166,10 @@ export const Container = styled.div`
     }
     @media screen and (max-width: 490px) {
       .profile img {
-        width: 30%;
+        width: 42%;
         height: 25%;
 
-        margin-left: -9rem;
+        margin-left: -2.2rem;
       }
 
       p {

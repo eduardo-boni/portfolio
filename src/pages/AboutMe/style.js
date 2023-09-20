@@ -10,7 +10,7 @@ export const Container = styled.main`
     h1 {
         text-align: center;
 
-        padding: 19px;
+        padding: 1.18rem;
         color: #f1f1f1;
     }
 
@@ -18,7 +18,7 @@ export const Container = styled.main`
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        gap: 10px;
+        gap: 0.62rem;
     }
 
     .main .cv-profile {
@@ -37,8 +37,8 @@ export const Container = styled.main`
     }
 
     .cv-profile a {
-        width: 180px;
-        height: 45px;
+        width: 11.25rem;
+        height: 2.81rem;
 
         border-radius: 8px;
         border: 2px solid #00d2df;
@@ -80,7 +80,7 @@ export const Container = styled.main`
         color: #f1f1f1;
         font-size: 1.3rem;
         font-family: 'Inter', sans-serif;
-        margin-bottom: 15px;
+        margin-bottom: 0.93rem;
     }
 
     .skills span {

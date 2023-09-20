@@ -5,7 +5,7 @@ export const Footer = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  height: 70px;
+  height: 4.37rem;
   padding: 0 1rem;
 
   background: linear-gradient(#003333, #008080);
@@ -13,7 +13,7 @@ export const Footer = styled.div`
   .social-icon {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0.62rem;
   }
 
   .contact {
@@ -28,8 +28,8 @@ export const Footer = styled.div`
   }
 
   svg {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 
     color: #000;
     background: #f1f1f1;
@@ -49,8 +49,6 @@ export const Footer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 30px;
-      height: 30px;
     }
 
     @media screen and (max-width: 440px) {

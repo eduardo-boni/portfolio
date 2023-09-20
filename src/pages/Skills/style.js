@@ -11,7 +11,7 @@ export const Container = styled.section`
     color: #f1f1f1;
 
     margin: 0;
-    padding-top: 20px;
+    padding-top: 1.25rem;
   }
 
   h2 {
@@ -28,7 +28,7 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.87rem;
   }
 
   .container-skills {
@@ -38,14 +38,18 @@ export const Container = styled.section`
     align-items: center;
 
     width: 40%;
-    min-height: 400px;
+    min-height: 25rem;
 
     margin: 4% 3%;
 
     border: 2px solid #009999;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
-    gap: 20px;
+    gap: 1.25rem;
+  }
+
+  .container-skills > h2 {
+    margin: 1rem;
   }
 
   .box {
@@ -54,7 +58,7 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     gap: 10px;
   }
 
@@ -63,14 +67,14 @@ export const Container = styled.section`
     width: 6.3rem;
 
     background-color: #c4c4c4;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin: 0 25px;
+    margin: 0 1.56rem;
 
     transition: ease 0.3s;
     cursor: pointer;
@@ -111,6 +115,10 @@ export const Container = styled.section`
 
   .typescript-skill:hover {
     color: #0066ff;
+  }
+
+  .python-skill:hover {
+    color: #ffcc00;
   }
 
   .java-skill:hover {

@@ -5,15 +5,15 @@ export const Container = styled.div`
 
   width: 100%;
 
-  background: #0d0d0d;
+  background:  #001a1a;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.62rem;
+  padding-bottom: 0.62rem;
 
   h1 {
     text-align: center;
     color: #f1f1f1;
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .projects {
@@ -21,14 +21,14 @@ export const Container = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .container {
     width: 36%;
-    min-height: 580px;
+    min-height: 36.25rem;
 
-    margin: 10px;
+    margin: 0.62rem;
 
     border: 2px solid #009999;
     border-radius: 10px;
@@ -45,7 +45,7 @@ export const Container = styled.div`
 
   .itens img {
     width: 100%;
-    height: 250px;
+    height: 15.62rem;
 
     border-radius: 10px 10px 0 0;
   }
@@ -59,13 +59,13 @@ export const Container = styled.div`
   span {
     color: #fff;
     padding-left: 10px;
-    margin: 20px 5px;
+    margin: 1.25rem 5px;
   }
 
   p,
   span {
     font-family: Inter, sans-serif;
-    font-size: 17px;
+    font-size: 1.06rem;
   }
 
   span {
@@ -80,7 +80,7 @@ export const Container = styled.div`
     width: 50%;
     height: 2.4rem;
 
-    margin: 15px auto;
+    margin: 0.93rem auto;
 
     font-family: "Inter", sans-serif;
     font-size: 1.1rem;
@@ -111,7 +111,7 @@ export const Container = styled.div`
 
     a {
       margin: auto;
-      margin-bottom: 15px;
+      margin-bottom: 0.93rem;
     }
   }
 `;

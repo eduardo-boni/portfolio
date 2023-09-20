@@ -6,6 +6,7 @@ import {
   FaJava,
   FaAngular,
   FaFigma,
+  FaPython
 } from "react-icons/fa";
 import { SiCss3, SiJavascript, SiTypescript } from "react-icons/si";
 import { DiScrum } from "react-icons/di";
@@ -78,6 +79,12 @@ const Skills = () => {
               <div className="skill-box angular-skill">
                 {show ? <span>AngularJs</span> : null}
                 <FaAngular
+                  onClick={() => (show ? setShow(false) : setShow(true))}
+                />
+              </div>
+              <div className="skill-box python-skill">
+                {show ? <span>Python</span> : null}
+                <FaPython
                   onClick={() => (show ? setShow(false) : setShow(true))}
                 />
               </div>
